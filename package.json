@@ -1,18 +1,22 @@
 {
-  "name": "inventory-app",
-  "version": "1.0.0",
-  "description": "LAB07",
-  "main": "src/index.js",
+  "name": "nnptud-s4",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^8.0.3",
-    "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-validator": "^7.3.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.11",
+    "slugify": "^1.6.6"
   }
 }
